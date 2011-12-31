@@ -31,6 +31,7 @@ Bug fixes and features are welcomed.
 ## Other similar modules
 
 - pkginfo (https://github.com/indexzero/node-pkginfo) by indexzero.
+
 - JSON.parse + fs.readFile
 
 ## License
