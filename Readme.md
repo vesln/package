@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/vesln/package.png)](http://travis-ci.org/vesln/package)
+
 # package - Easy package.json exports.
 
 ## Intro
