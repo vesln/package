@@ -18,6 +18,10 @@ find your package.json file automatically. Cool, ugh?
 	
 	yourAwesomeModule.version = package.version;
 
+## Tests
+
+	$ make test
+
 ## Contribution
 
 Bug fixes and features are welcomed.
