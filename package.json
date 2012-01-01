@@ -1,11 +1,9 @@
 {
     "name": "package"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "description": "Easy package.json exports."
   , "keywords": ["package.json"]
   , "author": "Veselin Todorov <hi@vesln.com>"
-  , "dependencies": {
-  }
   , "devDependencies": {
       "mocha": "0.3.3"
     , "should": "0.3.2"
