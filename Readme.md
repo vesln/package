@@ -31,14 +31,13 @@ Bug fixes and features are welcomed.
 ## Other similar modules
 
 - pkginfo (https://github.com/indexzero/node-pkginfo) by indexzero.
-
 - JSON.parse + fs.readFile
 
 ## License
 
 MIT License
 
-Copyright (C) 2011 Veselin Todorov
+Copyright (C) 2012 Veselin Todorov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
