@@ -4,9 +4,7 @@
 
 ## Intro
 
-This module provides an easy way to export package.json data.
-It contains auto-discovery functionality, which means that it will
-find your package.json file automatically. Cool, ugh?
+This module provides an easy and simple way to export package.json data.
 
 ## Installation
 
@@ -14,10 +12,8 @@ find your package.json file automatically. Cool, ugh?
 
 ## Usage
 
-	var package = require('package')(); // contains package.json data.
-	
+	var package = require('package')(module); // contains package.json data.
 	var yourAwesomeModule = {};
-	
 	yourAwesomeModule.version = package.version;
 
 ## Tests
