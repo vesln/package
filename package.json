@@ -1,6 +1,6 @@
 {
     "name": "package"
-  , "version": "0.0.3"
+  , "version": "1.0.0"
   , "description": "Easy package.json exports."
   , "keywords": ["package.json"]
   , "author": "Veselin Todorov <hi@vesln.com>"
