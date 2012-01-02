@@ -9,6 +9,6 @@
  * Dependencies.
  */
 
-var package = require('../')();
+var package = require('../')(module);
 
 console.log(package); // This will contain the package.json data.
