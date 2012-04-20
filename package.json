@@ -1,6 +1,6 @@
 {
     "name": "package"
-  , "version": "1.0.0"
+  , "version": "1.0.1"
   , "description": "Easy package.json exports."
   , "keywords": ["package.json"]
   , "author": "Veselin Todorov <hi@vesln.com>"
@@ -17,5 +17,5 @@
       "test": "make test"
   }
   , "main": "./lib/package"
-  , "engines": { "node": ">= 0.6.0 < 0.7.0" }
+  , "engines": { "node": ">= 0.6.0" }
 }
