@@ -1,35 +1,38 @@
 [![Build Status](https://secure.travis-ci.org/vesln/package.png)](http://travis-ci.org/vesln/package)
 
-# package - Easy package.json exports.
+# Project deprecated in favor of [read-package-json](https://github.com/isaacs/read-package-json)
 
-## Intro
+This project is not supported anymore. Please check the following alternatives:
+
+- read-package-json (https://github.com/isaacs/read-package-json) by Isaac Z. Schlueter
+- pkginfo (https://github.com/indexzero/node-pkginfo) by Charlie Robbins
+- require('path-to-package-json').version // etc
+
+## package - Easy package.json exports.
+
+### Intro
 
 This module provides an easy and simple way to export package.json data.
 
-## Installation
+### Installation
 
 	$ npm install package
 
-## Usage
+### Usage
 
 	var package = require('package')(module); // contains package.json data.
 	var yourAwesomeModule = {};
 	yourAwesomeModule.version = package.version;
 
-## Tests
+### Tests
 
 	$ make test
 
-## Contribution
+### Contribution
 
 Bug fixes and features are welcomed.
 
-## Other similar modules
-
-- pkginfo (https://github.com/indexzero/node-pkginfo) by indexzero.
-- JSON.parse + fs.readFile
-
-## License
+### License
 
 MIT License
 
